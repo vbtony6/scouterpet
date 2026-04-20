@@ -1,22 +1,105 @@
-# Playwright Automation Project
+# 🧪 ScouterPet - QA Automation Project (Playwright)
 
-This project demonstrates end-to-end test automation using Playwright integrated with CI/CD via GitHub Actions.
+## 🚀 Overview
 
-## 🚀 Technologies
+This project is an end-to-end (E2E) test automation framework built with Playwright. It simulates real user flows over a demo application to ensure quality, stability, and reliability of key business features.
 
-- Playwright
-- GitHub Actions
-- Node.js
+---
 
-## 📂 Structure
+## 🎯 Objectives
 
-- tests/ → automation test cases
-- .github/workflows → CI/CD pipeline
-- playwright.config.js → configuration file
+* Automate critical user journeys
+* Validate UI behavior and workflows
+* Detect regressions early
+* Serve as a QA automation portfolio project
 
-## ▶️ How to run locally
+---
+
+## 🛠️ Tech Stack
+
+* Playwright
+* JavaScript / TypeScript (adjust if needed)
+* Node.js
+* Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+```
+playwright-tests/
+│── tests/              # Test specs
+│── pages/              # Page Object Model (POM)
+│── utils/              # Helpers and utilities
+│── reports/            # Test reports (if enabled)
+│── playwright.config  # Playwright configuration
+```
+
+---
+
+## ▶️ How to Run Tests
+
+### Install dependencies
 
 ```bash
 npm install
-npx playwright install
+```
+
+### Run all tests
+
+```bash
 npx playwright test
+```
+
+### Run tests in UI mode
+
+```bash
+npx playwright test --ui
+```
+
+### Generate report
+
+```bash
+npx playwright show-report
+```
+
+---
+
+## 🧪 Example Test Scenario
+
+* Login user
+* Navigate through product flow
+* Add item to cart
+* Complete checkout process
+
+---
+
+## 📊 Key Features
+
+* E2E automation coverage
+* Page Object Model structure
+* Reusable utilities
+* CI-ready framework (GitHub Actions ready)
+
+---
+
+## ⚙️ CI/CD (Future Enhancement)
+
+Planned integration with GitHub Actions to:
+
+* Run tests on every push
+* Generate reports automatically
+* Validate main branch stability
+
+---
+
+## 👨‍💻 Author
+
+Julio Lazo
+QA Automation Engineer (Learning / Portfolio Project)
+
+---
+
+## 📌 Notes
+
+This project is continuously improving as part of QA Automation learning and professional development.
